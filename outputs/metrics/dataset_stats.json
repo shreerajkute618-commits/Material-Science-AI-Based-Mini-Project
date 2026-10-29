@@ -1,0 +1,35 @@
+{
+    "source": "TrashNet (Stanford CS229 Benchmark)",
+    "train": {
+        "Cardboard": 282,
+        "Glass": 350,
+        "Metal": 287,
+        "Paper": 415,
+        "Plastic": 337,
+        "Other / Non-recyclable waste": 95
+    },
+    "val": {
+        "Cardboard": 60,
+        "Glass": 75,
+        "Metal": 61,
+        "Paper": 89,
+        "Plastic": 72,
+        "Other / Non-recyclable waste": 20
+    },
+    "test": {
+        "Cardboard": 61,
+        "Glass": 76,
+        "Metal": 62,
+        "Paper": 90,
+        "Plastic": 73,
+        "Other / Non-recyclable waste": 22
+    },
+    "total": {
+        "Cardboard": 403,
+        "Glass": 501,
+        "Metal": 410,
+        "Paper": 594,
+        "Plastic": 482,
+        "Other / Non-recyclable waste": 137
+    }
+}

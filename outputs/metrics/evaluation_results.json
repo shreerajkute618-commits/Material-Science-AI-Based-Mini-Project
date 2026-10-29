@@ -1,0 +1,49 @@
+{
+    "overall_accuracy": 0.7578,
+    "overall_accuracy_percent": "75.78%",
+    "macro_precision": 0.6337,
+    "macro_recall": 0.6669,
+    "macro_f1_score": 0.6485,
+    "weighted_precision": 0.716,
+    "weighted_recall": 0.7578,
+    "weighted_f1_score": 0.7347,
+    "total_test_samples": 384,
+    "per_class": {
+        "Cardboard": {
+            "precision": 0.8644,
+            "recall": 0.8361,
+            "f1_score": 0.85,
+            "support": 61
+        },
+        "Glass": {
+            "precision": 0.6923,
+            "recall": 0.7105,
+            "f1_score": 0.7013,
+            "support": 76
+        },
+        "Metal": {
+            "precision": 0.6944,
+            "recall": 0.8065,
+            "f1_score": 0.7463,
+            "support": 62
+        },
+        "Paper": {
+            "precision": 0.783,
+            "recall": 0.9222,
+            "f1_score": 0.8469,
+            "support": 90
+        },
+        "Plastic": {
+            "precision": 0.7681,
+            "recall": 0.726,
+            "f1_score": 0.7465,
+            "support": 73
+        },
+        "Trash": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1_score": 0.0,
+            "support": 22
+        }
+    }
+}

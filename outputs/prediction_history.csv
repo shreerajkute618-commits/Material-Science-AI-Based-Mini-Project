@@ -1,0 +1,9 @@
+Timestamp,Source,Predicted Material,Confidence (%),Destination Bin,Chute Number,Uncertain
+2026-10-29 23:27:51,Live Camera Capture,Paper,29.62,Clean Paper & Cellulose Bin,3,Yes
+2026-10-29 23:36:38,Preset: Cardboard_cardboard101.jpg,Cardboard,78.83,Corrugated Cardboard Bin,4,No
+2026-10-29 23:37:00,Live Webcam Capture,Paper,35.81,Clean Paper & Cellulose Bin,3,Yes
+2026-10-29 23:44:45,Preset: Cardboard_cardboard101.jpg,Cardboard,78.83,Corrugated Cardboard Bin,4,No
+2026-10-29 23:44:51,Preset: Glass_glass10.jpg,Glass,59.66,Cullet Glass Containers Bin,5,No
+2026-10-29 23:46:08,Preset: Cardboard_cardboard101.jpg,Cardboard,78.83,Corrugated Cardboard Bin,4,No
+2026-10-30 00:05:01,Preset: Cardboard_cardboard101.jpg,Cardboard,78.83,Corrugated Cardboard Bin,4,No
+2026-10-30 00:05:05,Preset: Cardboard_cardboard11.jpg,Cardboard,90.52,Corrugated Cardboard Bin,4,No

@@ -1,0 +1,15 @@
+torch
+torchvision
+torchaudio
+streamlit
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pillow
+opencv-python-headless
+python-docx
+python-pptx
+pytest
+requests

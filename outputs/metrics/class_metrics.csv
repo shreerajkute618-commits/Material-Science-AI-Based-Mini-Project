@@ -1,0 +1,7 @@
+Material Class,Precision,Recall,F1-Score,Test Samples
+Cardboard,0.8644,0.8361,0.8500,61
+Glass,0.6923,0.7105,0.7013,76
+Metal,0.6944,0.8065,0.7463,62
+Paper,0.7830,0.9222,0.8469,90
+Plastic,0.7681,0.7260,0.7465,73
+Trash,0.0000,0.0000,0.0000,22
