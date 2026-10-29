@@ -16,10 +16,36 @@ import numpy as np
 import pandas as pd
 
 import torch
+import torch.nn as nn
 import torchvision.transforms as transforms
+from torchvision import models
 
 import config
-from train_model import build_model
+
+
+def build_model(num_classes: int = len(config.CLASS_NAMES), pretrained: bool = True):
+    """
+    Constructs MobileNetV2 architecture with customized classification head
+    adapted for recyclable material classification.
+    (Duplicated from train_model.py to avoid importing download_dataset at runtime.)
+    """
+    try:
+        weights = models.MobileNet_V2_Weights.DEFAULT if pretrained else None
+        model = models.mobilenet_v2(weights=weights)
+    except Exception:
+        model = models.mobilenet_v2(weights=None)
+
+    # Custom classification head
+    in_features = model.classifier[1].in_features
+    model.classifier = nn.Sequential(
+        nn.Dropout(p=0.2),
+        nn.Linear(in_features, 128),
+        nn.ReLU(),
+        nn.Dropout(p=0.3),
+        nn.Linear(128, num_classes)
+    )
+
+    return model
 
 # Global cache for loaded model and class labels
 _CACHED_MODEL = None
